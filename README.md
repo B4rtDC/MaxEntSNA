@@ -11,7 +11,21 @@ The steps to undertake for each dataset in the Twitter information operations re
 5. analyze the results
 
 ## using the virtual environments
-For both Julia and Python a virtual environment is provided.
+For both Julia and Python a virtual environment is provided. 
+
+To start the Pluto notebook from this folder:
+```bash
+julia --project=path/to/this/folder -e 'using Pluto;Pluto.run()'
+```
+
+For the python scripts, get the packages with
+```bash
+virtualenv .env && source .env/bin/activate && pip install -r requirements.txt
+```
+and then activate the environment with
+```bash
+source .env/bin/activate
+```
 
 ## Obtaining the data
 1. Download the files associated with a specific dataset. This will give you a set of files that holds the tweets and the user info that has the following naming conventions:
