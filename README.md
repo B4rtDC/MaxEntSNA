@@ -10,7 +10,8 @@ The steps to undertake for each dataset in the Twitter information operations re
 4. identify the significant interactions and project the interaction network on the user layer (using the [NEMtropy](https://github.com/nicoloval/NEMtropy) package)
 5. analyze the results
 
-
+## using the virtual environments
+For both Julia and Python a virtual environment is provided.
 
 ## Obtaining the data
 1. Download the files associated with a specific dataset. This will give you a set of files that holds the tweets and the user info that has the following naming conventions:

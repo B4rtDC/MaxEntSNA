@@ -22,10 +22,7 @@
 from hydratorpipeline import harvestfiles, harvest_external_data
 
 # harvesting the external files for Twitter information operations dataset
-datapath = './demodata'
+datapath = './path/to/dataset/'
 harvestfiles(datapath)
 
-# harvesting the tweets for Plandemic dataset
-datapath = './demodata/dataset_A/externaltweets.csv_replies'
-harvest_external_data(datapath)
 
